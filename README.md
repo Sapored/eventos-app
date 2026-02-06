@@ -1,54 +1,13 @@
-# React + TypeScript + Vite
+Aplicación web desarrollada con React + Vite + TypeScript para la gestión y visualización de eventos universitarios, enfocada en mejorar la difusión de actividades culturales y académicas dentro de la Universidad de Colima.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Requisitos previos
 
-Currently, two official plugins are available:
+Antes de comenzar, asegúrate de contar con los siguientes elementos instalados en tu equipo: Node.js (versión 18 o superior), npm (incluido con Node.js) y un navegador web moderno como Chrome, Edge o Firefox. Puedes verificar las versiones instaladas ejecutando los comandos node -v y npm -v desde la terminal.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Instalación
 
-## Expanding the ESLint configuration
+Para instalar el proyecto, primero clona el repositorio desde GitHub ejecutando el comando: git clone https://github.com/Sapored/eventos-app.git. Posteriormente, accede a la carpeta del proyecto con el comando cd eventos-app. Una vez dentro, instala las dependencias necesarias ejecutando npm install.
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+Ejecución del proyecto
 
-```js
-export default tseslint.config({
-  extends: [
-    // Remove ...tseslint.configs.recommended and replace with this
-    ...tseslint.configs.recommendedTypeChecked,
-    // Alternatively, use this for stricter rules
-    ...tseslint.configs.strictTypeChecked,
-    // Optionally, add this for stylistic rules
-    ...tseslint.configs.stylisticTypeChecked,
-  ],
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
-
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
-
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
-
-export default tseslint.config({
-  plugins: {
-    // Add the react-x and react-dom plugins
-    'react-x': reactX,
-    'react-dom': reactDom,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended typescript rules
-    ...reactX.configs['recommended-typescript'].rules,
-    ...reactDom.configs.recommended.rules,
-  },
-})
-```
+Para ejecutar la aplicación en modo desarrollo, utiliza el comando npm run dev.

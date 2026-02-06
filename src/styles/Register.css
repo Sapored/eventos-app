@@ -1,0 +1,113 @@
+.register-container {
+  max-width: 600px;
+  margin: 2rem auto;
+  padding: 2rem;
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.register-title {
+  text-align: center;
+  color: #2c3e50;
+  margin-bottom: 1.5rem;
+}
+
+.tabs {
+  display: flex;
+  gap: 0.5rem;
+  margin-bottom: 1.5rem;
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 0.5rem;
+}
+
+.tab {
+  flex: 1;
+  padding: 0.8rem;
+  border: none;
+  background: #f8f9fa;
+  cursor: pointer;
+  font-weight: 500;
+  color: #6c757d;
+  border-radius: 5px 5px 0 0;
+  transition: all 0.3s;
+}
+
+.tab.active {
+  background: #3498db;
+  color: white;
+}
+
+.register-form {
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.form-group label {
+  font-weight: 500;
+  color: #495057;
+}
+
+.form-group input,
+.form-group select {
+  padding: 0.8rem 1rem;
+  border: 1px solid #ced4da;
+  border-radius: 5px;
+  font-size: 1rem;
+}
+
+.form-group input:focus,
+.form-group select:focus {
+  outline: none;
+  border-color: #3498db;
+  box-shadow: 0 0 0 2px rgba(52, 152, 219, 0.2);
+}
+
+.form-checkbox {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.form-checkbox input {
+  width: auto;
+}
+
+.submit-button {
+  padding: 0.8rem;
+  background: #2ecc71;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 1rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background 0.3s;
+  margin-top: 1rem;
+}
+
+.submit-button:hover {
+  background: #27ae60;
+}
+
+.login-link {
+  text-align: center;
+  margin-top: 1.5rem;
+  color: #6c757d;
+}
+
+.login-link a {
+  color: #3498db;
+  text-decoration: none;
+}
+
+.login-link a:hover {
+  text-decoration: underline;
+}

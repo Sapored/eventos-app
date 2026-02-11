@@ -10,4 +10,4 @@ Para instalar el proyecto, primero clona el repositorio desde GitHub ejecutando 
 
 Ejecución del proyecto
 
-Para ejecutar la aplicación en modo desarrollo, utiliza el comando npm run dev.
+Para ejecutar la aplicación en modo desarrollo, utiliza el comando npm run dev
